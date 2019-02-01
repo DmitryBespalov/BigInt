@@ -5,9 +5,9 @@
 //  Created by Károly Lőrentey on 2015-12-27.
 //  Copyright © 2016-2017 Károly Lőrentey.
 //
-
+#if SEPARATE
 import SipHash
-
+#endif
 //MARK: BigInt
 
 /// An arbitary precision signed integer type, also known as a "big integer".

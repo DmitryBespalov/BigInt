@@ -5,8 +5,9 @@
 //  Created by Károly Lőrentey on 2016-01-03.
 //  Copyright © 2016-2017 Károly Lőrentey.
 //
-
+#if SEPARATE
 import SipHash
+#endif
 
 extension BigUInt: SipHashable {
     //MARK: Hashing
